@@ -80,7 +80,7 @@
                 &studio_unlock &bootloader   &none  &none &none   &none &none &kp F8   &kp F9 &kp F10  &kp  F11  &kp F12   &none   &none
                 &kp LCTRL      &none   &none   &none   &none    &none    &none    &none   &none   &none   &none   &none       &none 
                 &kp LSHFT         &none  &none   &none     &none   &none    &none    &none    &none   &none    &none   &none  &none 
-                &kp LCTRL &kp LALT &kp  LGUI       &none      &kp LSHFT        &kp LSHFT         &none          &kp LGUI &kp LALT &kp K_APP                 &check_bat           
+                &kp LCTRL &kp LALT &kp  LGUI       &none      &kp LSHFT        &kp LSHFT         &none          &kp LGUI &kp LALT &kp K_APP                 &trans            
             >;
             sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
         };
