@@ -13,6 +13,6 @@
 #
 ---
 include:
-  - board: sparkfun_pro_micro_rp2040//zmk
+  - board: sparkfun_pro_micro_rp2040
     shield: soroka
     snippet: studio-rpc-usb-uart
