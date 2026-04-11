@@ -6,8 +6,8 @@ manifest:
       url-base: https://github.com/sqdbruh
   projects:
     - name: zmk
-      remote: sqdbruh
-      revision: 87cea76c93fd959d94a16632f6f70209140681ac
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
