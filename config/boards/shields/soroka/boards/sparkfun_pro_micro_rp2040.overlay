@@ -18,7 +18,7 @@
         compatible = "raspberrypi,pico-spi-pio";
         #address-cells = <1>;
         #size-cells = <0>;
-        clocks = <&clocks RPI_PICO_CLKID_CLK_SYS>;
+        clocks = <&system_clk>;
         clock-frequency = <4000000>;
 
         clk-gpios = <&gpio0 24 GPIO_ACTIVE_HIGH>;     /* Must be defined. Select a pin that is not used elsewhere. */
